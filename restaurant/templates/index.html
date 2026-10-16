@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h2>Welcome to Little Lemon</h2>
+<p>We are a family-owned Mediterranean restaurant focused on traditional recipes served with a modern twist.</p>
+<p><a href="{% url 'menu' %}">View our menu</a> | <a href="{% url 'book' %}">Make a reservation</a></p>
+{% endblock %}
